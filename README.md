@@ -72,7 +72,21 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
 **Langkah-langkah pengolahan data**:
 1. **Data Collection**: Mengumpulkan dataset yang relevan.  
 2. **Data Cleaning**: Menghapus duplikasi data, menangani missing values, dan mempersiapkan gambar/data JSON.  
-3. **Data Augmentation** *(jika diperlukan)*: Untuk menyeimbangkan kelas sampah.
+3. **Data Augmentation**: Menambah variasi/keragaman dataset agar model belajar dengan lebih baik.
+
+|**Klasifikasi Dataset**|
+|-|
+|Battery|
+|Cardboard|
+|Clothes|
+|Electronic|
+|Glass|
+|Metal|
+|Organic|
+|Paper|
+|Plastic|
+|Shoes|
+
 
 ---
 
