@@ -128,9 +128,6 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
    Sistem di-deploy menggunakan **Docker**.  
 2. **Cloud Deployment**:  
    - **IBM Cloud** untuk hosting aplikasi dan API.  
-3. **Pipeline CI/CD**:  
-   Disiapkan untuk integrasi development dan deployment yang lebih cepat.
-
 ---
 
 ## 📈 **Result**
@@ -152,17 +149,13 @@ Dengan penggabungan teknologi AI dan platform web/mobile, proyek ini bertujuan:
 
 --- 
 
-Nah, iya betul! **username** itu bisa lo ganti dengan nama akun GitHub lo, jadi kalau di project ini, tinggal disesuaikan jadi:  
-
----
-
 ### 🛠️ **Getting Started**  
 
 Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:  
 
-## 🗂 **Folder 1: Klasifikasi (Image Classification)**  
+### 🗂 **Folder 1: Klasifikasi (Image Classification)**  
 
-### **1. Menjalankan Server Flask**  
+#### **1. Menjalankan Server Flask**  
 - Arahkan terminal ke folder `klasifikasi` dulu.  
    ```bash
    cd klasifikasi
@@ -170,12 +163,12 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
    ```
 - Server biasanya jalan di **http://localhost:5000**.  
 
-### **2. Endpoint Klasifikasi Gambar**  
+#### **2. Endpoint Klasifikasi Gambar**  
 | **Method** | **Endpoint**         | **Deskripsi**                         |
 |------------|----------------------|---------------------------------------|
 | POST       | `/predict`           | Menerima gambar untuk klasifikasi.    |
 
-### **3. Pengaturan di Postman**  
+#### **3. Pengaturan di Postman**  
 1. **Buat Request Baru** → Pilih **POST**.  
 2. **URL**:  
    ```
@@ -201,9 +194,9 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
 
 ---
 
-## 🗂 **Folder 2: Chatbot (Text-Based Chatbot)**  
+### 🗂 **Folder 2: Chatbot (Text-Based Chatbot)**  
 
-### **1. Menjalankan Server Flask**  
+#### **1. Menjalankan Server Flask**  
 - Arahkan terminal ke folder `chatbot`:  
    ```bash
    cd chatbot
@@ -211,12 +204,12 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
    ```
 - Server Flask jalan di **http://localhost:5000**.  
 
-### **2. Endpoint Chatbot**  
+#### **2. Endpoint Chatbot**  
 | **Method** | **Endpoint**         | **Deskripsi**                     |
 |------------|----------------------|-----------------------------------|
 | POST       | `/chat`              | Menerima input teks dari user.    |
 
-### **3. Pengaturan di Postman**  
+#### **3. Pengaturan di Postman**  
 1. **Buat Request Baru** → Pilih **POST**.  
 2. **URL**:  
    ```
@@ -242,7 +235,7 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
 
 ---
 
-# 🔄 **Workflow Pengujian Keduanya**  
+### 🔄 **Workflow Pengujian Keduanya**  
 
 ## **Step-by-Step**  
 1. **Jalankan Flask Server**  
