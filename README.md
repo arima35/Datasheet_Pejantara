@@ -166,31 +166,31 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
 #### **2. Endpoint Klasifikasi Gambar**  
 | **Method** | **Endpoint**         | **Deskripsi**                         |
 |------------|----------------------|---------------------------------------|
-| POST       | `/predict`           | Menerima gambar untuk klasifikasi.    |
+| POST       | `/classify`           | Menerima gambar untuk klasifikasi.    |
 
 #### **3. Pengaturan di Postman**  
 1. **Buat Request Baru** → Pilih **POST**.  
 2. **URL**:  
    ```
-   http://localhost:5000/predict
+   http://localhost:5000/classify
    ```
 3. **Body Request**:  
    - Pilih tab **Body** → Klik **form-data**.  
    - Tambahkan **Key** dengan tipe **File**:  
      ```
-     Key: image
+     Key: file
      Value: <pilih file gambar sampah>
      ```
 4. **Send Request** → Cek respons Flask:  
    ```json
    {
-       "class": "Plastik",
        "confidence": 0.95
+       "class": "Plastik",
    }
    ```
 5. **Validasi Respons**:  
-   - Pastikan **class** sesuai jenis sampah (Plastik, Kertas, dll).  
    - **Confidence** menunjukkan akurasi model.
+   - Pastikan **class** sesuai jenis sampah (Plastik, Kertas, dll).  
 
 ---
 
@@ -232,35 +232,6 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di lokal:
 5. **Validasi Respons**:  
    - Respons teks harus relevan dengan input dari user.  
    - Perhatikan format JSON.
-
----
-
-### 🔄 **Workflow Pengujian Keduanya**  
-
-## **Step-by-Step**  
-1. **Jalankan Flask Server**  
-   - **Terminal 1**: Jalankan server `klasifikasi`.  
-     ```bash
-     cd klasifikasi
-     python app.py
-     ```
-   - **Terminal 2**: Jalankan server `chatbot`.  
-     ```bash
-     cd chatbot
-     python app.py
-     ```
-
-2. **Testing di Postman**  
-   - **Klasifikasi**: Kirim gambar sampah ke endpoint `/classify`.  
-   - **Chatbot**: Kirim input teks ke endpoint `/chat`.  
-
-3. **Cek Respons**  
-   - Klasifikasi → Pastikan prediksi kelas dan confidence.  
-   - Chatbot → Pastikan jawaban sesuai dengan konteks input teks.
-
-4. **Validasi Error Handling**  
-   - Kirim gambar/teks kosong → Pastikan API memberikan **error message** yang informatif.  
-   - Format file salah → Tes upload file selain gambar (misalnya PDF).  
 
 ---
 
