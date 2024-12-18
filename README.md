@@ -123,9 +123,11 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
 ## 🚀 **Deployment**
 
 1. **Containerization**:  
-   Sistem di-deploy menggunakan **Docker**.  
+- Sistem di-deploy menggunakan **Docker** untuk memastikan aplikasi dapat berjalan konsisten di berbagai lingkungan (development, testing, production).
+- Docker memungkinkan pengemasan aplikasi beserta dependensinya dalam satu kontainer, memudahkan tim dalam manajemen versi dan skalabilitas.
 2. **Cloud Deployment**:  
-   - **IBM Cloud** untuk hosting aplikasi dan API.  
+- **IBM Cloud Code Engine** digunakan untuk hosting aplikasi dan API. Code Engine memfasilitasi deployment aplikasi berbasis kontainer tanpa perlu mengelola infrastruktur server secara langsung. 
+- Layanan ini memungkinkan sistem untuk menskalakan aplikasi secara otomatis sesuai dengan kebutuhan trafik dan memastikan kinerja yang optimal tanpa overprovisioning.
 ---
 
 ## 📈 **Result**
