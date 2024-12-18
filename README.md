@@ -1,6 +1,6 @@
 ---
 
-## <h2 align="center">♻️ Waste Management AI with team Web & Mobile Project ♻️</h2>
+# <h2 align="center">♻️ Waste Management AI with team Web & Mobile Project ♻️</h2>
 
 <p align="center">
 🚀 Kolaborasi tim AI dengan tim Web dan Mobile untuk solusi inovatif terkait pengelolaan sampah 🚀
@@ -97,14 +97,12 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
 
 ## 🎨 **Prototype**
 
-- **Fitur Utama**:
-    1. **Upload Gambar Sampah**: Prediksi jenis sampah berdasarkan gambar.  
-    2. **Chatbot Interaktif**: Tanya jawab mengenai tips pengelolaan sampah.  
-    3. **Dashboard Monitoring**: Statistik hasil klasifikasi dan edukasi.
-
-- **Tampilan Awal**:
-    - Web: Dibangun dengan **React** & **TailwindCSS**.  
-    - Mobile: Dapat diintegrasikan dengan teknologi **React Native**.
+### Fitur Utama 🚀
+- 🌟 Teknologi AI untuk klasifikasi sampah otomatis.
+- 🌟 Chatbot interaktif berbasis Flask.  
+- 📱 Aplikasi mobile menggunakan **Android Studio & Kotlin**.  
+- 💻 Web dashboard dengan **React & Tailwind CSS**.  
+- 🤝 Kolaborasi bersama stakeholder **Pejantara**.
 
 ---
 
