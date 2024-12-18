@@ -74,13 +74,10 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
 2. **Data Cleaning**: Menghapus duplikasi data, menangani missing values, dan mempersiapkan gambar/data JSON.  
 3. **Data Augmentation**: Menambah variasi/keragaman dataset agar model belajar dengan lebih baik.
 
-|**Klasifikasi Dataset**|
-|------------|------------|
-|Battery     |Cardboard   |
-|Clothes     |Electronic  |
-|Glass       |Metal       |
-|Organic     |Paper       |
-|Plastic     |Shoes       |
+Tabel dibawah ini merupakan jumlah kategori dataset untuk proyek klasifikasi gambar, terdapat **10 kategori utama** yang mencakup jenis-jenis sampah umum.
+| Battery   | Cardboard | Clothes  | Electronic | Glass  |
+|-----------|-----------|----------|------------|--------|
+| Organic   | Metal     | Paper    | Plastic    | Shoes  |
 
 
 
