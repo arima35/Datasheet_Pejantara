@@ -1,6 +1,6 @@
 ---
 
-## <h1 align="center">♻️ Waste Management AI with team Web & Mobile Project ♻️</h1>
+## <h2 align="center">♻️ Waste Management AI with team Web & Mobile Project ♻️</h2>
 
 <p align="center">
 🚀 Kolaborasi tim AI dengan tim Web dan Mobile untuk solusi inovatif terkait pengelolaan sampah 🚀
