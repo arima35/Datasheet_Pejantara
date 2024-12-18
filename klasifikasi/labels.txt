@@ -1,0 +1,10 @@
+Baterai
+Kardus/karton
+Pakaian
+Elektronik
+Kaca
+Logam
+Organik
+Kertas
+Plastik
+Sepatu
