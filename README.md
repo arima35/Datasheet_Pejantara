@@ -75,17 +75,13 @@ Kami menggunakan 2 sumber dataset dari **Kaggle**:
 3. **Data Augmentation**: Menambah variasi/keragaman dataset agar model belajar dengan lebih baik.
 
 |**Klasifikasi Dataset**|
-|-|
-|Battery|
-|Cardboard|
-|Clothes|
-|Electronic|
-|Glass|
-|Metal|
-|Organic|
-|Paper|
-|Plastic|
-|Shoes|
+|-----------------------|
+|Battery     |Cardboard   |
+|Clothes     |Electronic  |
+|Glass       |Metal       |
+|Organic     |Paper       |
+|Plastic     |Shoes       |
+
 
 
 ---
